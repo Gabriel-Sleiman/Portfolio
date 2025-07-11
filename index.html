@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="ICON.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <meta name="description" content="Gabriel Sleiman's Portfolio" >
+    <script src="https://kit.fontawesome.com/0e29e7a7dd.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+ﾠ        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ﾠ        crossorigin="anonymous">
+ﾠ</script>
+<style>
+
+</style>
+</head>
+
+<body>
+        <header id="header" class="header">
+    <div class="headerr" id="myHeader">
+        <a href="#header-section" class="logo"><img src="portfolioo.png"
+                style="width:120px; height: auto;vertical-align: middle;" class="logo-img"></a>
+        <div class="header-right">
+            <nav id="nav" class="nav">
+            <a href="#header-section" class="nav-link active home-bg">Home</a>
+            <a href="#about" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact Us</a>
+        </nav>
+
+        </div>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    </div>
+
+
+
+    </div>
+
+</header>
+    <div class="header-section" id="header-section">
+        <div class="left-section animatedCard">
+            <img src="gabb.png" class="animated-img">
+        </div>
+        <div class="right-section">
+            <div class="intro animatedCard">
+                <h2>--Introduction</h2>
+            </div>
+            <div class="main-text animatedCard">
+                <h1>Hello ! <br> I'm Gabriel<br>Sleiman</h1>
+            </div>
+            <div class="paragraph animatedCard">
+                Hello my name is Gabriel Sleiman, I am 10 years old and I made this website.
+
+            </div>
+            <div class="contactButton animatedCard">
+                <a href="#contact">
+                    <p style="padding:9px;">Contact Us</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <section id="about" class="about">
+<div class="container">
+    <div class="about-title">
+        <h2>--Skills</h2>
+    </div>
+
+    <div class="about-row">
+        <div class="about-content">
+            <p class="about-descr">
+                Hi , i'm Gabriel , a passionate designer and developer specializing in web development , graphic design and photo editing. With over 2 years of experience ,I love exploring new things and learning new skills! Outside of School, I enjoy playing basketball and video games.
+            </p>
+        
+        </div>
+        <div class="about-skills">
+            <div class="skill">
+                <div class="skill-title">Web Design</div>
+                <div class="skill-percent">83%</div>
+                <div class="skill-bar__progress">
+                    <div class="skill-bar__fill skill1" data-progress="83"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">HTML / CSS</div>
+                <div class="skill-percent">70%</div>
+                <div class="skill-bar__progress">
+                    <div class="skill-bar__fill skill2" data-progress="70"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-title">Javascript</div>
+                <div class="skill-percent">30%</div>
+                <div class="skill-bar__progress">
+                    <div class="skill-barx__fill skill3" data-progress="30"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="services-row">
+    <div class="service-card">
+        <img class="service-card-img" src="1.svg">
+        <h3 class="service-card-title">HTML</h3>
+    </div>
+
+    <div class="service-card">
+        <img class="service-card-img" src="2.svg">
+        <h3 class="service-card-title">CSS</h3>    </div>
+
+    <div class="service-card">
+        <img class="service-card-img" src="3.svg">
+        <h3 class="service-card-title">JavaScript</h3>
+    </div>
+</div>
+    </section>
+
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-title">
+                <h2 class="title" style="text-align:left;">--Contact</h2>
+            </div>
+            <div class="contact-card">
+            <div class="contact-content">
+                <p>Tell me about your Project<br>Lets talk and work together</p>
+                
+            </div>
+           <form method="post" name="contact-form" action="">
+            <div class="input-box">
+                <input type="text" name="your-name" placeholder="Enter your Name" required>
+                <input type="email" name="your-email" placeholder="Enter your Email" required>
+                <input type="text" name="message" placeholder="Your Message" style="height:100px; padding:15px; " required>
+            </div>
+
+
+            <div class="contact-button">
+                <button type="submit" id="submit" class="btn btn-red">Send Message</button>
+             </div>
+            </div>
+           </form> 
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="social-links-row footer-social">
+                    <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; Copyright Gabriel's Portfolio 2025</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+     <div class="go-to-top">
+<a href="#header-section">
+    <i class="fa-solid fa-arrow-up"></i>
+
+</a>
+     </div>
+
+
+        <script src="script.js"></script>
+        <script src="form.js"></script>
+        <script src="skills.js"></script>
+
+</body>
+
+</html>
